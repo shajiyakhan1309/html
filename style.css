@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: black;
+    color:white;
+}
+.navbar{
+    height:100px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content:space-between;
+    background-color: orange;
+}
+
+h1#logo{
+    align-items: start;
+    justify-content: start;
+}
+ul{
+    height: 5em;
+    width: 20em;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul a{
+    color:rgb(124, 23, 23);
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 6px;
+    align-self: center;
+    justify-self: center;
+}
